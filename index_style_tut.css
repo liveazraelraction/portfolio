@@ -18,22 +18,17 @@ background-color: rgb(198, 248, 255);
 
 .menu{
     background-color:purple;
-    padding:2em;
-    margin:1em;
-    display:flex;
-    flex-direction: column;
-    row-gap: 1.5em;
-
-}
-.menu > div{
- padding-bottom: 10%;
- background-color: brown;
- border-color: black;
- border-style:solid;
+    padding:1em;
 }
 
-
-
-
+.menu li{
+    display:inline-block;
+    background-color:bisque;
+    list-style-type:none;
+    margin-right:10px;
+    width:70px;
+    height:50px;
+    align-self:center;
+}
 main{ 
     background-color: blue;}
