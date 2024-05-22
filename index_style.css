@@ -3,7 +3,8 @@ html {
     margin: 0;
     padding: 0;
     background-color: rgb(220, 243, 245);
-    font-family: "Madimi One", sans-serif;
+    font-family: "Silkscreen", sans-serif;
+  
 }
 
 /* ---- nav CSS -- */
@@ -30,19 +31,18 @@ nav{
     background-image: linear-gradient(180deg,  rgb(240, 203, 40), rgba(230, 109, 11, 0.781));
     word-wrap:break-word;
     color:rgb(255, 255, 255);
-    text-shadow: 7px 7px 0 #632415,
-    7px 7px 0 #3700ff,
-    7px 7px 0 #3700ff,
-    7px 7px 0 #3700ff;
-    box-shadow: 0px 20px #632415;
+    text-shadow: 0px 7px 2px #632415;
+    font-family: "Sriracha", cursive;
+    box-shadow: 0px 10px 5px #632415;
 
 }
 
-.namesake h1{
-    padding-bottom:6px;
-}
+
 .namesake h2{
-    font-size: 1em;
+    font-size: .5em;
+    font-family: "Silkscreen", sans-serif;
+    margin-bottom: 5%;
+    text-shadow: 0px 5px 2px #632415;
 }
 
 /* ---- menu -- */
@@ -51,7 +51,6 @@ nav{
     padding-top:1.5em;
     display:flex;
     flex-direction: column;
-    /*row-gap: 2em;*/
     min-width: 4em;
  }
   
@@ -68,7 +67,18 @@ nav{
     padding-top:.5em;
     padding-left: 5px;
     color: beige;
-    text-shadow: 2px 2px 0 #3700ff;
+    text-shadow: 2px 1px 0 #3700ff;
+ 
+    
+}
+.title-bar-2{
+    background: linear-gradient( #53ddff, #2e7b92);
+    padding-top:.5em;
+    padding-left: 5px;
+    color: beige;
+    text-shadow: 2px 1px 0 #3700ff;
+    font-size:1.5em;
+    
 }
 
 .imagewrapper{
@@ -82,6 +92,8 @@ nav{
     border-color: #2e7b92;
     border-style:solid;
     border-width: 5px;
+  
+   box-shadow: 5px 20px 3px #99ccc5;
 }
 
 .inner-space{
@@ -121,6 +133,7 @@ img{
     height:5em;
     padding-right:0px;
 }
+
 /* ----buttons----- */ 
 .button{
     background-color: rgb(40, 193, 240);
@@ -130,16 +143,17 @@ img{
     border-radius: 4px;
     margin-top: 15px;
     margin-right: .5em;
-    font-family: "Madimi One", sans-serif;
     color:beige;
     text-shadow: 1.5px 1.5px 0 #3700ff;
     font-size: 1.05em;
     float:right;
     transition-duration: 0.4s;
+    margin-bottom:10px;
+    box-shadow: 0px 5px 3px #99ccc5;
 }
 
 .button:hover {
-    background-color:  rgb(240, 203, 40); /* Green */
+    background-color:  rgb(240, 203, 40); 
     text-shadow: 1.5px 1.5px 0 #632415;
     border-color: #632415;
   }
@@ -152,3 +166,56 @@ img{
     color:rgb(164, 229, 255);
     float:right;
 }
+
+.button2{
+    background-color: rgb(40, 193, 240);
+    border: 4px solid #3700ff;
+    width: 15%;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: .5em;
+    color:beige;
+    text-shadow: 1.5px 1.5px 0 #3700ff;
+    font-size: 1.05em;
+    float:right;
+    transition-duration: 0.4s;
+    margin-bottom:10px;
+    box-shadow: 0px 5px 3px#4bb9ab; 
+    
+}
+
+.button2 > a{
+    text-decoration: none;
+    color:beige;
+}
+
+.button2:hover {
+    background-color:  rgb(240, 203, 40); 
+    text-shadow: 1.5px 1.5px 0 #632415;
+    border-color: #632415;
+  }
+
+
+/* ----ABOUT PAGE----- */ 
+
+.about-nav{
+    display:flex;
+    justify-content: center;
+    width:60%;
+    background-color: #79ffed;;
+    box-shadow: 0px 7px 3px #0c9e8b;
+    margin-left: 20%;
+    border-radius: 60px;
+}
+
+
+.icon{
+ float:right;
+ padding-left:40px;
+
+ 
+}
+
+
+
