@@ -217,5 +217,13 @@ img{
  
 }
 
+.about-text{
+   margin:25px;
 
+}
+
+.about-text img{
+    float: right;
+    
+}
 
