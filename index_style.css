@@ -141,7 +141,6 @@ img{
     width: 15%;
     padding: 10px 24px;
     border-radius: 4px;
-    margin-top: 15px;
     margin-right: .5em;
     color:beige;
     text-shadow: 1.5px 1.5px 0 #3700ff;
@@ -227,3 +226,7 @@ img{
     
 }
 
+/* ----CONTACT PAGE----- */ 
+.contact-text img{
+    margin-right: 30px;
+}
