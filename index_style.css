@@ -7,9 +7,6 @@ html {
   
 }
 
-body{
-    background: url("fish-asset.png") transparent
-}
 /* ---- nav CSS -- */
 nav{
      background-color:rgb(174, 231, 212);
@@ -37,9 +34,23 @@ nav{
     text-shadow: 0px 7px 2px #632415;
     font-family: "Sriracha", cursive;
     box-shadow: 0px 10px 5px #632415;
+    position: relative;
 
 }
 
+.namesake .meow{
+    position: absolute;
+    left: 900px;
+    top: 142px;
+    height:210px;
+}
+
+.namesake .fruits{
+    position: absolute;
+    right: 780px;
+    bottom: 62px;
+    height:300px;
+}
 
 .namesake h2{
     font-size: .5em;
@@ -209,9 +220,22 @@ img{
     box-shadow: 0px 7px 3px #0c9e8b;
     margin-left: 20%;
     border-radius: 60px;
+    position: relative;
 }
 
+.about-nav .fish{
+    position:absolute;
+    left:12em;
+    bottom: .08px;
 
+}
+
+.about-nav .cat{
+    position:absolute;
+    left:12em;
+    bottom: .08px;
+
+}
 .icon{
  float:right;
  padding-left:40px;
@@ -221,15 +245,32 @@ img{
 
 .about-text{
    margin:25px;
+   position: relative;
+   background-color: #efe6fa;
+  
 
 }
 
 .about-text img{
     float: right;
+   
     
 }
 
+.about-text .stickers{
+    position: absolute;
+    left: 73em;
+    top:310px;
+    bottom: 2.6px;
+    height:130px;
+}
+
+.about-text .fart{
+    border: #3700ff dashed 9px;
+}
 /* ----CONTACT PAGE----- */ 
+
 .contact-text img{
     margin-right: 30px;
 }
+
